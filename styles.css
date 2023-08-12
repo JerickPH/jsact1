@@ -40,7 +40,6 @@
     width: 60%;
     padding: 20px 20px 0 20px;
     
-    
 }
 .section2 {
     display: flex;
@@ -77,3 +76,32 @@ span {
     display: flex;
     flex-direction: column;
 }
+
+@media only screen and (max-width: 600px) {
+    .upper-container {
+      flex-direction: column;
+      width: 96%;
+      
+    }
+    
+    .upper-section1, .upper-section2 {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .upper-section1 .section1 {
+        width: 80%;
+        justify-content: center;
+        text-align: center;
+        padding-left: 30px  ;
+    }
+
+    .lower-container {
+        height: 300px;   
+    }
+
+    .lower-container .lower-section {
+        height: 250px;
+    }
+
+  }
