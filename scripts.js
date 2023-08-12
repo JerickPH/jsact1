@@ -44,7 +44,7 @@ document.getElementById("btnSave").addEventListener('click', function() {
         averageText = " - Average: " + average.toFixed(2);
     }
 
-    // Validation: Check if there are less than 2 number input fields
+    // Validation: Check if there are less than 3 number input fields
     if (newInputElements.length < 3) {
         alert("Please input at least three grades.");
         return;
